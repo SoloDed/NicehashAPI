@@ -1,0 +1,21 @@
+{
+    "name": "soloded/nicehash-simple-api",
+    "type": "library",
+    "description": "Libraly for calling Nicehash RESTful API",
+    "keywords": ["http"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pantakan Chusri-eam",
+            "email": "pantakan.c@ku.th"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "SoloDed\\Nicehash\\": "src/nicehash/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    }
+}
